@@ -41,6 +41,11 @@ def get_models():
     models = os.listdir(models_directory)
     # Filter out any subdirectories, if any
     models = [model for model in models if (model.lower().split(".")[-1] in supported_extensions) and os.path.isfile(os.path.join(models_directory, model))]  
+    if len(models) == 0:
+        from huggingface_hub import hf_hub_download
+        hf_hub_download(repo_id="TheBloke/Mistral-7B-Instruct-v0.1-GGUF", filename="mistral-7b-instruct-v0.1.Q4_K_M.gguf", local_dir=models_directory)
+        hf_hub_download(repo_id="digiplay/DreamShaper_8", filename="dreamshaper_8.safetensors", local_dir=models_directory)        
+        
     models.append("http://localhost:5000")    
     return models
 
