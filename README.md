@@ -2,6 +2,8 @@
 
 ![AgentLlama007B Logo](avatar.png)
 
+This repository has been moved to https://huggingface.co/spaces/srossitto79/AgentLlama007B where it hosts a demo.
+
 ## Overview
 
 AgentLlama007B is a powerful Conversational AI Assistant designed for natural language interactions and task automation. It leverages state-of-the-art language models and offers seamless integration with external tools and knowledge sources. Whether you need to engage in casual conversations or perform specific tasks, AgentLlama007B has you covered.
