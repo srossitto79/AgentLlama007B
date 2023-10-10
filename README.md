@@ -8,7 +8,7 @@ AgentLlama007B is a powerful Conversational AI Assistant designed for natural la
 
 ## Key Features
 
-- **Natural Language Conversations**: Engage in human-like conversations powered by advanced language models like Anthropic's Claude.
+- **Natural Language Conversations**: Engage in human-like conversations powered by local language models.
 - **Tool Integration**: Execute various tools, including image generation, web search, Wikipedia queries, and more, all within the conversation.
 - **Persistent Memory**: Contextual knowledge is stored in a vector database, providing continuity and enhancing the conversational experience.
 - **Modular Architecture**: Easily extend AgentLlama007B with additional skills and tools to suit your specific needs.
@@ -16,6 +16,9 @@ AgentLlama007B is a powerful Conversational AI Assistant designed for natural la
 ## Getting Started
 
 To start using AgentLlama007B, follow these simple steps:
+
+Clone the repo and create a folder "models", than download the Models you need from hugging face and put them in the models folder.
+I use mistral-7b-instruct-v0.1.Q4_K_M.gguf for chat/instructions and dreamshaper_8 for images generation (:P you'll need dreamshaper_8.json and dreamshaper_8.safetensors)
 
 1. Install the required dependencies by running `pip install -r requirements.txt`.
 
