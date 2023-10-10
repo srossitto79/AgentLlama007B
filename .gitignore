@@ -1,0 +1,7 @@
+models/*
+generated_images/*
+knowledge_base/*
+__pycache__/*
+myenv/*
+.vscode/*
+.fake
