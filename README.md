@@ -55,6 +55,3 @@ This project was created by Salvatore Rossitto as a passion project and a learni
 
 AgentLlama007B is an open-source project released under the MIT license. You are free to use, modify, and distribute it as per the terms of the license.
 
----
-
-Feel free to replace `insert_logo_image_link_here` with the actual link to your project's logo. This revised readme provides a more structured and user-friendly introduction to AgentLlama007B and makes it easier for users to get started.
