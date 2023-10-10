@@ -1,4 +1,4 @@
-# Agent Llama007B: a Conversational AI Assistant
+# Agent Llama007B: A Conversational AI Assistant
 
 ![AgentLlama007B Logo](avatar.png)
 
